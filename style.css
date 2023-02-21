@@ -14,7 +14,7 @@ h1 {
 .name{
     display:flex;
     border: dotted;
-    background-color: azure;
+    background-color: rgb(48, 184, 109);
 }
 
 .header{
