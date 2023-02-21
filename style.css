@@ -1,0 +1,112 @@
+h1 {
+    color: rgb(14, 49, 68);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+    padding:30px;
+}
+
+.about{
+    display:flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.name{
+    display:flex;
+    border: dotted;
+    background-color: azure;
+}
+
+.header{
+    display: flex;
+    border: dashed;
+    background-color:dimgray;
+    justify-content: space-between
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.epi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:1;
+    margin-top: 100px;
+}
+
+.item{
+    position: relative;
+}
+
+.item h5{
+    color:cornsilk
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: fantasy;
+    font-weight:bolder;
+    background-color: black;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end
+}
+
+h2,p{
+    text-align:center
+}
+
+body{
+    background-color:rgba(54, 164, 253, 0.993)
+}
+
+h4{
+
+    display:flex;
+    text-align: center;
+    text-shadow: 50mm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+
+}
+
+a:link{
+    color: rgba(0, 153, 255, 0.822);
+}
+
+a:visited{
+    color:rgba(13, 65, 94, 0.89)
+}
